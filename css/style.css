@@ -1,0 +1,423 @@
+h2{
+    font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+pre{
+  white-space: pre-wrap;
+}
+
+.container-fluid{
+  overflow-x: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    color: #ffffff;
+    text-shadow: 0px 3px 10px #000000;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.hero p{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: -10px !important;
+}
+
+.nosotros{
+    padding: 80px 0px;
+    color: #ffffff;
+    background: #0d405d;
+}
+
+.nosotros h2{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nosotrosframe iframe{
+  height: 350px;
+}
+
+.oferta{
+    padding: 80px 0px;
+}
+
+.oferta2{
+    padding: 80px 0px;
+}
+
+.oferta p, .oferta2 p{
+    color: #2a2a2a;
+}
+
+.gimg{
+    filter: grayscale(100%);
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.gimg:hover{
+    filter: grayscale(0%);
+}
+
+.admisiones{
+    background-image: url('../images/admisionbg.jpg');
+    padding: 80px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.form-floating > label{
+  left: auto;
+}
+
+.gacetarow{
+  padding: 80px 0px;
+}
+
+.gaceta{
+  margin: 10px;
+}
+
+.gaceta img{
+  box-shadow: 5px 5px 5px 1px #d1d1d1;
+  border-radius: 35px;
+}
+
+.footer{
+    background-color: #2a2a2a;
+    color: #ffffff;
+    padding: 70px 0px !important;
+}
+
+.footer li{
+  list-style-type: none;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contacto{
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 70px 0px !important;
+}
+
+.powered{
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 15px !important;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.aboutus{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #eeeeee;
+}
+
+.aboutus2{
+  background-color: #eeeeee;
+}
+
+.aboutus2 ul, .aboutus2 h3{
+  text-align: left;
+}
+
+.aboutus2 img{
+  border-radius: 15px;
+}
+
+.aboutus2 h3{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #0d405d;
+  font-weight: 400;
+}
+.aboutus2{
+  padding-bottom: 60px;
+}
+
+.rector{
+  background-image: url('../images/instalaciones.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 120px;
+  padding-bottom: 70px;
+  color: #ffffff;
+}
+
+.rectortxt{
+  margin-bottom: 25px;
+}
+
+.rectortxt h2{
+  margin-bottom: 15px;
+}
+
+.rector iframe{
+  height: 700px;
+}
+
+.validez{
+  padding: 70px 0px;
+}
+
+.button-container-left{
+  display:inline-block;
+  position:relative;
+  padding: 0px;
+  }
+  
+  .button-container-left a{
+  position: absolute;
+  bottom:19em;
+  right:8em;
+  padding: 5px 15px;
+  }
+
+  .button-container{
+    display:inline-block;
+    position:relative;
+    padding: 0px;
+    }
+    
+    .button-container a{
+    position: absolute;
+    bottom:19em;
+    right:35em;
+    }
+
+    .ofertamyd{
+      padding: 70px 0px;
+      background-color: #0d405d;
+      color: #ffffff;
+    }
+
+    .maestriacontenido{
+      margin-left: 30px;
+    }
+
+    .maestriacontenido p{
+      margin: 5px;
+    }
+
+    .ofertadocencia{
+      background-color: #69b7dd;
+      padding: 70px 0px;
+    }
+
+    .modeloeducativo{
+      padding: 70px 0px;
+    }
+
+    .modeloeducativo h2{
+      color: #0d405d;
+      margin-bottom: 50px;
+    }
+
+    .becasrow{
+      padding-top: 130px;
+      padding-bottom: 70px;
+    }
+
+    .becasrow h2{
+      margin-bottom: 40px;
+      color: #0d405d;
+    }
+
+    .becasrow p{
+      margin-top: 20px;
+      font-size: 25px;
+      color: #0d405d;
+      font-weight: 600;
+    }
+
+    .calendario{
+      padding-top: 70px;
+    }
+
+    .tramitescbi{
+      padding: 80px 0px;
+      background-color: #2f8dc4;
+      min-height: 95vh;
+    }
+
+    .tramitescbi i{
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    .formulariostramites input{
+      margin: 5px 0px;
+    }
+
+    .formulariostramites a{
+      margin-top: 5px;
+      padding: 3px 15px;
+    }
+
+    .reglamentos{
+      padding: 70px 0px;
+      background-color: #0d405d;
+      min-height: 95vh;
+    }
+
+    .reglamentos img{
+      border-radius: 30px;
+    }
+
+    .reglatxt{
+      width:50px;
+      word-wrap: break-word;
+      text-align:center;
+      color: #fff;
+      font-weight: 900;
+      font-size: 25px;
+      border-radius: 5px;
+    }
+
+    .pago{
+      border: 1px solid #e1e1e1;
+      border-radius: 5px;
+      padding: 3px 10px;
+    }
+
+    .contactorow{
+      padding-top: 140px;
+      padding-bottom: 70px;
+      min-height: 100vh;
+      
+    }
+
+    .contactorow h3{
+      font-weight: 500;
+      font-size: 50px;
+    }
+
+    .inputcontacto{
+      margin: 10px 0px;
+    }
+
+    .loginform{
+      min-height: 95vh;
+      padding-top: 70px 0px;
+      background-image: url('../images/instalaciones.jpg');
+    }
+
+    .loginform h2{
+      width: 100%;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .loginform button{
+      margin-top: 15px;
+    }
+
+    .directoriorowcontacto{
+      background-color: #2f8dc4;
+      padding: 70px 0px;
+      color: #ffffff;
+    }
+
+    .directoriorowcontacto h2{
+      margin-bottom: 80px;
+      font-size: 45px;
+    }
+
+    .directoriorowcontacto p{
+      margin: 2px 0px;
+    }
+
+    .directoriorowcontacto img{
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+@media screen and (max-width: 1000px) {
+
+  .nosotrosframe iframe{
+    height: 200px;
+  }
+
+  .especialidadmovil{
+    margin-bottom: 40px;
+  }
+
+  .hero h1{
+    font-size: 30px;
+  }
+
+  .hero p{
+    font-size: 15px;
+    margin-bottom: -2px !important;
+  }
+
+  .rector iframe{
+    height: 200px;
+  }
+
+  .maestriacontenido{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .reglatxt{
+    width: 100%;
+  }
+
+  .calendario{
+    padding-bottom: 70px;
+  }
+
+  .reglamentos{
+    height: 100%;
+  }
+
+  .reglamentos img{
+    margin: 30px 0px !important;
+  }
+
+  .arecol{
+    margin-bottom: 50px;
+  }
+
+  .margnews{
+    margin-top: 25px;
+  }
+
+}

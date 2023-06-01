@@ -1,0 +1,31 @@
+.margintop{
+    margin-top: 25px;
+}
+
+.mtop input, .mtop select{
+    margin-bottom: 15px;
+}
+
+.card{
+    margin-top: 25px !important;
+}
+
+.spfile{
+    margin-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.dcard{
+    min-height: 200px;
+    border:  1px;
+    background-color: #f7f7f7;
+}
+
+.margenbajo{
+    margin-bottom: 50px;
+}
+
+.dashlink{
+    color: #000000;
+}
