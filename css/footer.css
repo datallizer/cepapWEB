@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li{
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.footer{
+    padding: 50px 0px !important;
+}
+
+.derechos{
+    color: #ffffff;
+    padding: 20px 0px;
+    font-size: 10px;
+}
+
+.social{
+    font-size: 20px;
+    padding-left: 0px !important;
+}
+
+.socimgm img{
+    width: 60%;
+}
+
+@media screen and (max-width:1000px){
+    .logosocial{
+        margin-bottom: 50px;
+    }
+
+    .socimgm{
+        margin-bottom: 25px;
+    }
+
+    .socimgm img{
+        width: 80%;
+    }
+
+    .newslatter{
+        margin-top: 25px;
+    }
+}
